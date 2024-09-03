@@ -1,0 +1,63 @@
+[{
+        "header": "Dashboard",
+        "items": [{
+            "text": "Dashboard",
+            "icon": "bx bx-home",
+            "available": true,
+            "link": "/",
+            "roles": ["admin", "user"]
+        }]
+    },
+    {
+        "header": "KPM",
+        "items": [{
+                "text": "Master Data KRS",
+                "icon": "bx bx-user",
+                "available": true,
+                "link": "/kpm",
+                "roles": ["admin", "user"]
+            },
+            {
+                "text": "KRS Pengganti",
+                "icon": "bx bx-user-plus",
+                "available": true,
+                "link": "/kpmpengganti",
+                "roles": ["admin"]
+            }
+        ]
+    }, {
+        "header": "DTT",
+        "items": [{
+                "text": "DTT",
+                "icon": "bx bx-folder",
+                "available": true,
+                "link": "/dtt",
+                "roles": ["admin", "user"]
+            },
+            {
+                "text": "Undangan",
+                "icon": "bx bx-file",
+                "available": true,
+                "link": "/undangan",
+                "roles": ["admin"]
+            }
+        ]
+    }, {
+        "header": "DOKUMEN",
+        "items": [{
+                "text": "SPM",
+                "icon": "bx bx-file",
+                "available": true,
+                "link": "/spm",
+                "roles": ["admin"]
+            },
+            {
+                "text": "BAST",
+                "icon": "bx bx-folder",
+                "available": true,
+                "link": "/wo",
+                "roles": ["admin", "user"]
+            }
+        ]
+    }
+]
